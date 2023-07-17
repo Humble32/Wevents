@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical"
+    tools:context=".fragment.AboutActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/about_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:src="@drawable/baseline_arrow_back_24"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:layout_centerInParent="true"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:textSize="22sp"/>
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="WHO WE ARE"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="2dp"
+                android:text="WE EVENTS is a recognized one of the best in the e-commerce industry, with a steadfast commitment to success and a record of achievement that continues a tradition of delivering excellence."
+                android:textSize="17sp"
+                android:textStyle="normal"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="2dp"
+                android:text="The company was founded in 2022 by Loic, Laurent and Aude to ease the process of ordering various items. From those early days with just one employee, WE EVENTS now has more than 3 employees, serving hundreds of customers."
+                android:textSize="17sp"
+                android:textStyle="normal"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="2dp"
+                android:text="WE EVENTS is guided by four principles: customer obsession rather than competitor focus, passion for invention, commitment to operational excellence, and long-term thinking."
+                android:textSize="17sp"
+                android:textStyle="normal"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:padding="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Vision"
+                android:textAlignment="center"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="2dp"
+                android:text="To make the world a more stylish, colorful and happier place."
+                android:textSize="17sp"
+                android:textStyle="normal"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:padding="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Mission"
+                android:textAlignment="center"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="2dp"
+                android:text="We strive to offer our customers the lowest possible prices, the best available selection, and the utmost convenience."
+                android:textSize="17sp"
+                android:textStyle="normal"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:padding="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="BUILDING THE FUTURE"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="2dp"
+                android:text="We strive to have a positive impact on customers, employees, small businesses, the economy, and communities."
+                android:textSize="17sp"
+                android:textStyle="normal"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="2dp"
+                android:text="We are smart, passionate builders with different backgrounds and goals, who share a common desire to always be learning and inventing on behalf of our customers."
+                android:textSize="17sp"
+                android:textStyle="normal"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="2dp"
+                android:text="We follow the following intensive growth strategies to match our competitors:"
+                android:textSize="17sp"
+                android:textStyle="normal"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="2dp"
+                android:text="1-Market development: Our Focus is on entry and growth in new markets."
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="2dp"
+                android:text="2-Market Penetration: We aim to generate more revenue from markets where the company currently operates."
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="2dp"
+                android:text="3-Product Development: Our goal is to develop and offer new products to gain higher revenues."
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="2dp"
+                android:text="4-Diversification: Our objective is to achieve growth based on new business."
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">COMMERCE</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_to_we_events">Welcome to WE EVENTS</string>
+    <string name="explore_us">Explore us</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="last_name">Last name</string>
+    <string name="first_name">First name</string>
+</resources>
